@@ -1,0 +1,38 @@
+# Ignora entornos virtuales
+env/
+venv/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Configuración de IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de entorno
+.env
+
+# Archivos de log o temporales
+*.log
+*.tmp
+*.bak
+
+# Carpetas de subida/conversión (si querés ignorarlas también)
+uploads/
+converted/
+
+# Cache de pip
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
